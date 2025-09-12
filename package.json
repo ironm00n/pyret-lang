@@ -8,9 +8,6 @@
     "example": "examples",
     "test": "tests"
   },
-  "bundleDependencies": [
-    "browserify"
-  ],
   "dependencies": {
     "ascii-table": "^0.0.9",
     "benchmark": "^2.1.4",
