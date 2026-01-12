@@ -267,6 +267,10 @@
         // TODO(joe): This works because it's a builtin and already loaded on execRt.
         // In what situations may this not work?
         var rendererrorMod = execRt.modules["builtin://render-error-display"];
+        if (rendererrorMod == null) {
+          console.dir(res);
+          process.exit(1);
+        }
         var rendererror = execRt.getField(rendererrorMod, "provide-plus-types");
         var gf = execRt.getField;
         execRt.runThunk(function() {
