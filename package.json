@@ -1,6 +1,6 @@
 {
   "name": "@ironm00n/pyret-lang",
-  "version": "0.0.5",
+  "version": "0.0.6",
   "description": "The Pyret programming language",
   "main": "build/phase0/main-wrapper.js",
   "directories": {
